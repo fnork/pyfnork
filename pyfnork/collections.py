@@ -1,8 +1,15 @@
+""" collections.py - Additional utility collections
+"""
+
+__all__ = ['PersistentDict']
+
 import builtins
 import ctypes
 import os
+import os
 import pickle
 import shutil
+import time
 import time
 
 from .util import persistent_hash
